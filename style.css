@@ -1,0 +1,137 @@
+/* Global */
+:root {
+  /* Color */
+  --color-dark-grey: dimgrey;
+  --color-blue: #54aeef;
+  --color-yellow: #fbbf23;
+  --color-pink: #fd8085;
+  --color-white: white;
+
+  /* Size */
+  --size-border-radius: 4px;
+  --size-spacing: 0.5rem;
+  --size-logo: 6.25rem;
+  --size-btn: 3.75rem;
+  --size-img: 2.5rem;
+
+  /* Animation duration */
+  --animation-duration: 300ms;
+}
+
+/* Universal */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--color-dark-grey);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Logo */
+.logo {
+  width: var(--size-logo);
+  height: var(--size-logo);
+  cursor: pointer;
+  transition: transform var(--animation-duration) ease-in;
+}
+
+.logo:hover,
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* Buttons */
+.btns {
+  display: flex;
+}
+
+.btn {
+  margin: 0 var(--size-spacing);
+  transition: transform var(--animation-duration) ease-in;
+}
+
+.btns__type,
+.btns__color {
+  display: flex;
+  align-items: center;
+}
+
+.btn__img {
+  width: var(--size-btn);
+  height: var(--size-btn);
+}
+
+.color-btn {
+  font-size: 1.125rem;
+  padding: calc(var(--size-spacing) * 2);
+  border-radius: var(--size-border-radius);
+}
+
+.btn--blue {
+  background-color: var(--color-blue);
+}
+
+.btn--yellow {
+  background-color: var(--color-yellow);
+}
+
+.btn--pink {
+  background-color: var(--color-pink);
+}
+
+/* List */
+.list {
+  max-width: 62.5rem;
+  width: 60%;
+  height: 60%;
+  overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--size-spacing);
+  background-color: var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+.list__item.invisible {
+  display: none;
+}
+
+.item__img {
+  width: var(--size-img);
+  height: var(--size-img);
+  margin: var(--size-spacing);
+}
+
+/* 48rem 이하의 스크린 */
+@media screen and (max-width: 48rem) {
+  .btns {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

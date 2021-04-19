@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hyunji Lee" />
+    <meta
+      name="description"
+      content="A list of shopping items which can be filtered by category"
+    />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <title>Filterable Shopping List</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="src/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Logo -->
+    <img src="img/logo.png" alt="logo" class="logo" />
+
+    <!-- Buttons  -->
+    <section class="btns">
+      <div class="btns__type">
+        <button class="btn">
+          <img
+            src="img/shirt-y.png"
+            alt="shirt button"
+            class="btn__img"
+            data-key="type"
+            data-value="shirt"
+          />
+        </button>
+        <button class="btn">
+          <img
+            src="img/pants-y.png"
+            alt="pants button"
+            class="btn__img"
+            data-key="type"
+            data-value="pants"
+          />
+        </button>
+        <button class="btn">
+          <img
+            src="img/socks-y.png"
+            alt="socks button"
+            class="btn__img"
+            data-key="type"
+            data-value="socks"
+          />
+        </button>
+      </div>
+      <div class="btns__color">
+        <button
+          class="btn color-btn btn--blue"
+          data-key="color"
+          data-value="blue"
+        >
+          Blue
+        </button>
+        <button
+          class="btn color-btn btn--yellow"
+          data-key="color"
+          data-value="yellow"
+        >
+          Yellow
+        </button>
+        <button
+          class="btn color-btn btn--pink"
+          data-key="color"
+          data-value="pink"
+        >
+          Pink
+        </button>
+      </div>
+    </section>
+
+    <!-- List -->
+    <ul class="list"></ul>
+  </body>
+</html>

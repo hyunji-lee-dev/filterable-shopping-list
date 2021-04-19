@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "type": "shirt",
+      "color": "pink",
+      "season": "summer",
+      "size": "medium",
+      "image": "img/shirt-p.png"
+    },
+    {
+      "type": "pants",
+      "color": "yellow",
+      "season": "summer",
+      "size": "small",
+      "image": "img/pants-y.png"
+    },
+    {
+      "type": "pants",
+      "color": "blue",
+      "season": "winter",
+      "size": "large",
+      "image": "img/pants-b.png"
+    },
+    {
+      "type": "socks",
+      "color": "yellow",
+      "season": "winter",
+      "size": "medium",
+      "image": "img/socks-y.png"
+    },
+    {
+      "type": "socks",
+      "color": "blue",
+      "season": "summer",
+      "size": "small",
+      "image": "img/socks-b.png"
+    },
+    {
+      "type": "shirt",
+      "color": "blue",
+      "season": "summer",
+      "size": "small",
+      "image": "img/shirt-b.png"
+    },
+    {
+      "type": "shirt",
+      "color": "yellow",
+      "season": "summer",
+      "size": "large",
+      "image": "img/shirt-y.png"
+    },
+    {
+      "type": "pants",
+      "color": "pink",
+      "season": "summer",
+      "size": "medium",
+      "image": "img/pants-p.png"
+    },
+    {
+      "type": "shirt",
+      "color": "pink",
+      "season": "winter",
+      "size": "large",
+      "image": "img/shirt-p.png"
+    },
+    {
+      "type": "pants",
+      "color": "blue",
+      "season": "winter",
+      "size": "large",
+      "image": "img/pants-b.png"
+    },
+    {
+      "type": "pants",
+      "color": "yellow",
+      "season": "summer",
+      "size": "small",
+      "image": "img/pants-y.png"
+    },
+    {
+      "type": "socks",
+      "color": "yellow",
+      "season": "winter",
+      "size": "large",
+      "image": "img/socks-y.png"
+    },
+    {
+      "type": "socks",
+      "color": "pink",
+      "season": "winter",
+      "size": "medium",
+      "image": "img/socks-p.png"
+    },
+    {
+      "type": "shirt",
+      "color": "yellow",
+      "season": "summer",
+      "size": "small",
+      "image": "img/shirt-y.png"
+    },
+    {
+      "type": "shirt",
+      "color": "blue",
+      "season": "summer",
+      "size": "medium",
+      "image": "img/shirt-b.png"
+    },
+    {
+      "type": "pants",
+      "color": "pink",
+      "season": "winter",
+      "size": "medium",
+      "image": "img/pants-p.png"
+    }
+  ]
+}
